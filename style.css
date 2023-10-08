@@ -1,0 +1,17 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1;
+  font-size: 15px;
+}
+
+/* 1 */
+.prevent-select {
+  user-select: none;
+}
+
+
+/* 2 */
+::selection {
+  color: red;
+  background: yellow;
+}
